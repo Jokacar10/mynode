@@ -25,3 +25,5 @@ glances
 bottle
 fastapi
 uvicorn
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.47.2 # not directly required, pinned by Snyk to avoid a vulnerability
